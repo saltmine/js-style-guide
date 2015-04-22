@@ -5,7 +5,6 @@
 
 ## Table of Contents
 
-  1. [Setting Up ESLint](#setting-up-eslint)
   1. [Types](#types)
   1. [Objects](#objects)
   1. [Arrays](#arrays)
@@ -37,19 +36,6 @@
   1. [Chat With Us About Javascript](#chat-with-us-about-javascript)
   1. [Contributors](#contributors)
   1. [License](#license)
-
-## Setting Up ESLint
-
-  - **Sublime Text 3**:
-
-    - Pull the latest version of Outland
-    - In your Outland directory, run `npm install eslint`
-    - Install [Package Control](https://packagecontrol.io/installation)
-    - Within Sublime, bring up the Command Palette (`cmd + shift + P` for Mac) and type `Install`
-    - Select `Package Control: Install Package`. There will be a pause for a few seconds while it does its thing.
-    - When the plugin list appears, type `eslint` and select `SublimeLinter-contrib-eslint`.
-
-**[⬆ back to top](#table-of-contents)**
 
 ## Types
 
