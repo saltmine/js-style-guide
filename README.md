@@ -49,7 +49,7 @@
     - Select `Package Control: Install Package`. There will be a pause for a few seconds while it does its thing.
     - When the plugin list appears, type `eslint` and select `SublimeLinter-contrib-eslint`.
 
-  **[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#table-of-contents)**
 
 ## Types
 
