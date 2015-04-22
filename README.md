@@ -5,7 +5,7 @@
 
 ## Table of Contents
 
-  1. [Setting Up ESLint](#eslint)
+  1. [Setting Up ESLint](#setting-up-eslint)
   1. [Types](#types)
   1. [Objects](#objects)
   1. [Arrays](#arrays)
