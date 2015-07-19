@@ -725,32 +725,8 @@
     }
     ```
 
-  - Prefixing your comments with `FIXME` or `TODO` helps other developers quickly understand if you're pointing out a problem that needs to be revisited, or if you're suggesting a solution to the problem that needs to be implemented. These are different than regular comments because they are actionable. The actions are `FIXME -- need to figure this out` or `TODO -- need to implement`.
-
-  - Use `// FIXME:` to annotate problems.
-
-    ```javascript
-    function Calculator() {
-
-      // FIXME: shouldn't use a global here
-      total = 0;
-
-      return this;
-    }
-    ```
-
-  - Use `// TODO:` to annotate solutions to problems.
-
-    ```javascript
-    function Calculator() {
-
-      // TODO: total should be configurable by an options param
-      this.total = 0;
-
-      return this;
-    }
-  ```
-
+  - Don't use `FIXME` or `TODO` to annotate inside code. This conflates coding with keeping track of improvements to the code. Use a ticketing system, post-its, anything that increases visibility to the team!  Best case is someone comes along, fixes this, removes the todo or fixme line and all is good, and no one is the wiser. Worst case is that it sits inside the codebase, becomes stale to everyone who sees it (inclusive of the author), and becomes an unknown to anyone without intimate knowledge of the code in question. Another worse case is that someone fixes it and fails to remove the note, or just removes the note without fixing, inciting further confusion. 
+  
 **[⬆ back to top](#table-of-contents)**
 
 
